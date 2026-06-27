@@ -103,3 +103,18 @@ print(
     "Nonce:",
     transaction["nonce"]
 )
+
+print(
+    "Gas:",
+    transaction["gas"]
+)
+
+print(
+    "Online:",
+    runtime["connected"]
+)
+
+print(
+    "Contract interaction signed"
+)
+```
